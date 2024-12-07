@@ -2,14 +2,18 @@
   "name": "youtube_clone",
   "version": "1.0.0",
   "description": "Description",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm start src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Bhargav Tank",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
